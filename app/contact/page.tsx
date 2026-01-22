@@ -94,14 +94,14 @@ export default function Page() {
                   Message Sent!
                 </h3>
                 <p className="text-sm md:text-base text-gray-400 text-center max-w-sm">
-                  Thanks for reaching out. I'll get back to you as soon as
+                  Thanks for reaching out. I&apos;ll get back to you as soon as
                   possible.
                 </p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6 md:space-y-8">
                 <h2 className="text-2xl sm:text-2xl md:text-3xl font-bold mb-6 md:mb-8 inline-block relative">
-                  Let's Talk
+                  Let&apos;s Talk
                   <span className="absolute -bottom-2 left-0 w-full h-0.5 bg-emerald-400"></span>
                 </h2>
 
@@ -210,7 +210,7 @@ export default function Page() {
             </h2>
 
             <p className="text-base md:text-lg text-gray-300 mb-8 md:mb-12">
-              I'm currently available for freelance work and open to discussing
+              I&apos;m currently available for freelance work and open to discussing
               new opportunities. Feel free to reach out if you have a project in
               mind or just want to connect.
             </p>
