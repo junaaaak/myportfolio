@@ -13,6 +13,12 @@ export const defaultMetadata: Metadata = {
     "web development",
     "projects",
     "Software Engineer",
+    "Data Engineer",    
+    "Vishal",
+    "Vishal Portfolio",
+    "Vishal Developer",
+    "Vishal Software Engineer",
+    "Vishal Data Engineer",
   ],
   authors: [{ name: "Vishal" }],
   openGraph: {
@@ -21,7 +27,7 @@ export const defaultMetadata: Metadata = {
     url: "https://portfolio-curator.vercel.app/",
     title: "Vishal | Portfolio",
     description:
-      "Professional portfolio showcasing my work, skills, and experience as a Software Engineer",
+      "Professional portfolio showcasing my work, skills, and experience as a Data Engineer",
     siteName: "Vishal Portfolio",
     images: [
       {
@@ -36,7 +42,7 @@ export const defaultMetadata: Metadata = {
     card: "summary_large_image",
     title: "Vishal | Portfolio",
     description:
-      "Professional portfolio showcasing my work, skills, and experience as a Software Engineer",
+      "Professional portfolio showcasing my work, skills, and experience as a Data Engineer",
     images: ["/images/logo.jpg"],
   },
   robots: {
