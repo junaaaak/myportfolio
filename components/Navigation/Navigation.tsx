@@ -109,6 +109,10 @@ const links = [
     href: "/projects",
   },
   {
+    name: "Blogs",
+    href: "/blogs",
+  },
+  {
    name: "Courses",
     href: "/certifications",
   },
