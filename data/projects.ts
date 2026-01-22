@@ -9,7 +9,7 @@ type Project = {
   code_link?: string;
   demo_link?: string;
   in_progress?: boolean;
-  type?: "Professional" | "Personal";
+  type?: "Professional" | "Personal" | "Academic";
 };
 
 export const projects: Project[] = [
