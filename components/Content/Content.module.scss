@@ -1,0 +1,65 @@
+.mainWrapper {
+  width: 100vw;
+  height: 100dvh; /* Fixed viewport height */
+  position: fixed; /* Change to fixed instead of absolute */
+  overflow-y: auto; /* Enable vertical scrolling */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  z-index: 20;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 0;
+  transition:
+    top 0.7s ease,
+    right 0.7s ease,
+    border-top-right-radius 0.7s ease,
+    border-bottom-right-radius 0.7s ease;
+  -webkit-box-shadow: -10px -10px 28px -15px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: -10px -10px 28px -15px rgba(0, 0, 0, 0.41);
+  box-shadow: -10px -10px 28px -15px rgba(0, 0, 0, 0.41);
+
+  /* Create a container with padding for the scrollbar */
+  padding-right: 6px; /* Add padding equal to scrollbar width */
+  box-sizing: border-box;
+
+  /* Custom scrollbar styling */
+  &::-webkit-scrollbar {
+    width: 6px; /* Slim scrollbar width */
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.3); /* Dark track */
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+      to bottom,
+      rgba(52, 211, 153, 0.7),
+      rgba(16, 185, 129, 0.7)
+    ); /* Emerald gradient */
+    border-radius: 3px;
+    transition: background 0.3s ease;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+      to bottom,
+      rgba(52, 211, 153, 0.9),
+      rgba(16, 185, 129, 0.9)
+    ); /* Brighter on hover */
+  }
+
+  /* For Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(16, 185, 129, 0.7) rgba(0, 0, 0, 0.3);
+}
+
+/* Add a new class for the inner content */
+.contentInner {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 6px; /* Add padding to account for scrollbar */
+  box-sizing: border-box;
+}

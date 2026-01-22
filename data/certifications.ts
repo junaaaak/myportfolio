@@ -1,0 +1,80 @@
+export const certificationsData = [
+{
+  title: "Environmental Social Governance (ESG)",
+  issuer: "Bloomberg",
+  date: "2025",
+  credentialUrl: "https://portal.bloombergforeducation.com/certificates/dtCHFoeHp5bdHqHXD9UMoSvV",
+},
+{
+  title: "Bloomberg Market Concepts (BMC)",
+  issuer: "Bloomberg",
+  date: "2025",
+  credentialUrl: "https://portal.bloombergforeducation.com/certificates/TiLK2scwn8LGMiA7nh6J8gid",
+},
+{
+  title: "Bloomberg Finance Fundamentals",
+  issuer: "Bloomberg",
+  date: "2025",
+  credentialUrl: "https://portal.bloombergforeducation.com/certificates/TiLK2scwn8LGMiA7nh6J8gid",
+},
+{
+  title: "Google Data Analytics Professional Certificate",
+  issuer: "Google",
+  date: "2025",
+  credentialUrl: "https://coursera.org/share/5443615716439264de62fdf66a13216e",
+},
+{
+  title: "Master Linear Algebra: Theory and Implementation in Code",
+  issuer: "Udemy",
+  date: "2025",
+  credentialUrl: "https://www.udemy.com/certificate/UC-f2406259-3a5a-436f-a73b-c66aa89d48cb/",
+},
+{
+  title: "Use Generative AI as Your Thought Partner",
+  issuer: "Coursera",
+  date: "2025",
+  credentialUrl: "https://coursera.org/share/2e9df305dd0d236e6cb7d17b5473d67e",
+},
+{
+  title: "The Complete 2024 Web Development Bootcamp",
+  issuer: "Udemy",
+  date: "2024",
+  credentialUrl: "https://www.udemy.com/certificate/UC-21475a84-62d1-48bd-8c5c-1249fbe1fae6/",
+},
+{
+  title: "Google IT Automation with Python",
+  issuer: "Google",
+  date: "2024",
+  credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/RJWLGZ43CDTP",
+},
+{
+  title: "100 Days of Code: The Python Pro Bootcamp",
+  issuer: "Udemy",
+  date: "2024",
+  credentialUrl: "https://www.udemy.com/certificate/UC-f27c5cdd-2bb4-45a0-b3cd-d65838764d2e/",
+},
+{
+  title: "The Ultimate Microsoft Excel Mastery Bundle",
+  issuer: "Udemy",
+  date: "2024",
+  credentialUrl: "https://www.udemy.com/certificate/UC-0723262a-66f3-486a-ae4a-0c91d5fc9b9b/",
+},
+{
+  title: "100 Hours Training Program on Blockchain",
+  issuer: "NIELIT",
+  date: "2023",
+  credentialUrl: "https://drive.google.com/file/d/1TJNvsA7VSpbAAZCIAJ6EVYbRF7jmCrYd/view",
+},
+{
+  title: "C Programming Course",
+  issuer: "Infosys Springboard",
+  date: "2023",
+  credentialUrl: "https://drive.google.com/file/d/14mtqmAL3k2wC7_IrsO6-_7WoyXQyiC9o/view",
+},
+{
+  title: "Web Development Using Python",
+  issuer: "NIELIT",
+  date: "2021",
+  credentialUrl: "https://drive.google.com/file/d/1UZhM8qvAACXRP86-1c24IOMf4NJvMg-O/view",
+},
+];

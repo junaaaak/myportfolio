@@ -1,0 +1,113 @@
+.socialButtonWrapper {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 30;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem; /* Equal padding all around */
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(8px);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: fit-content; /* Ensure the button only takes the space it needs */
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    padding-right: 1.25rem;
+
+    .iconWrapper {
+      transform: rotate(45deg);
+    }
+
+    .label {
+      max-width: 100px;
+      opacity: 1;
+      margin-left: 0.5rem;
+      color: #10b981;
+    }
+  }
+
+  &.active {
+    background: linear-gradient(135deg, #10b981, #0d9488);
+    padding-right: 1.25rem;
+
+    .dot {
+      background: white;
+    }
+
+    .label {
+      max-width: 100px;
+      opacity: 1;
+      margin-left: 0.5rem;
+      color: white;
+    }
+  }
+}
+
+.iconWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3px;
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+  margin: 0; /* Ensure no margin */
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #10b981;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+
+  &:nth-child(1) {
+    animation: pulse 1.5s infinite 0.2s;
+  }
+
+  &:nth-child(2) {
+    animation: pulse 1.5s infinite 0.4s;
+  }
+
+  &:nth-child(3) {
+    animation: pulse 1.5s infinite 0.6s;
+  }
+
+  &:nth-child(4) {
+    animation: pulse 1.5s infinite 0.8s;
+  }
+}
+
+.label {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s ease;
+  max-width: 0;
+  opacity: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0; /* Ensure no margin by default */
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.8);
+    opacity: 0.8;
+  }
+}
